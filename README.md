@@ -1,7 +1,5 @@
 # RGTechMessenger - ASP.NET API & Next.js 🚀
 
-Welcome to RGTechMessenger, a starter template that combines an ASP.NET API backend with a Next.js frontend. This template provides a foundation for building modern web applications with a powerful backend and a dynamic frontend. Below you'll find details about the template's structure and its key components.
-
 ## Table of Contents 📑
 
 - [RGTechMessenger - ASP.NET API \& Next.js 🚀](#rgtechmessenger---aspnet-api--nextjs-)
@@ -23,7 +21,8 @@ Welcome to RGTechMessenger, a starter template that combines an ASP.NET API back
 
 ## Introduction 🌟
 
-RGTechMessenger is a template that brings together an ASP.NET API backend and a Next.js frontend. This combination offers the benefits of a robust backend with ASP.NET and a responsive, interactive frontend using Next.js.
+RGTechMessenger is a real-time messaging application with user authentication and a simple client
+interface.
 
 ## Getting Started 🚀
 
