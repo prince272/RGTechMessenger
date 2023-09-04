@@ -1,29 +1,25 @@
-# RGTechMessenger - ASP.NET API & Next.js Template 🚀
+# RGTechMessenger - ASP.NET API & Next.js 🚀
 
 Welcome to RGTechMessenger, a starter template that combines an ASP.NET API backend with a Next.js frontend. This template provides a foundation for building modern web applications with a powerful backend and a dynamic frontend. Below you'll find details about the template's structure and its key components.
 
 ## Table of Contents 📑
 
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-- [Backend Installation](#backend-installation)
-- [Frontend Installation](#frontend-installation)
-- [Backend Setup](#backend-setup)
-  - [Configuration](#configuration)
-  - [Authentication](#authentication)
-  - [Database](#database)
-  - [Email and SMS](#email-and-sms)
-- [Frontend Setup](#frontend-setup)
-  - [Scripts](#scripts)
-  - [Dependencies](#dependencies)
-  - [Dev Dependencies](#dev-dependencies)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [Support](#support)
-  - [Sponsorship](#sponsorship)
-- [Contact](#contact)
-- [License](#license)
+- [RGTechMessenger - ASP.NET API \& Next.js 🚀](#rgtechmessenger---aspnet-api--nextjs-)
+  - [Table of Contents 📑](#table-of-contents-)
+  - [Introduction 🌟](#introduction-)
+  - [Getting Started 🚀](#getting-started-)
+    - [Prerequisites 🛠️](#prerequisites-️)
+  - [Backend Installation ⚙️](#backend-installation-️)
+  - [Frontend Installation ⚙️](#frontend-installation-️)
+  - [Backend Setup 🔧](#backend-setup-)
+    - [Configuration ⚙️](#configuration-️)
+    - [Authentication 🔑](#authentication-)
+    - [Database 🗄️](#database-️)
+  - [Frontend Setup 🔨](#frontend-setup-)
+    - [Scripts 📜](#scripts-)
+    - [Dependencies 📦](#dependencies-)
+    - [Dev Dependencies 🔧](#dev-dependencies-)
+  - [Deployment 🚀](#deployment-)
 
 ## Introduction 🌟
 
@@ -66,10 +62,6 @@ The template supports user authentication and authorization using ASP.NET Identi
 
 The template uses Entity Framework Core for database operations. Database context is configured in the `AppDbContext.cs` file, and migrations are managed using Entity Framework's tools.
 
-### Email and SMS 📧📱
-
-Email sending is implemented using MailKit, and the template includes a fake SMS sender for testing.
-
 ## Frontend Setup 🔨
 
 The frontend is built with Next.js, providing a fast and dynamic user experience.
@@ -106,16 +98,8 @@ Dev dependencies for the frontend include tools like Prettier, ESLint, and other
 
 ## Deployment 🚀
 
-For deployment, follow standard procedures for deploying an ASP.NET application and a Next.js application. Configure environment-specific settings in the `appsettings.json` file and the frontend's environment variables.
+For hosting my ASP.NET API backend, I have chosen [SmartASP](https://www.smartasp.net/). SmartASP offers a reliable and scalable hosting platform that perfectly suits the needs of my ASP.NET application. With their robust infrastructure and easy-to-use deployment tools, I have ensured that my backend is running smoothly and efficiently.
 
-## Contributing 👥
+Similarly, for hosting my Next.js frontend, I have opted for [Vercel](https://vercel.com/). Vercel provides an exceptional hosting experience for Next.js applications, offering automatic deployments directly from my GitHub repository. By connecting my repository to Vercel, I have streamlined the deployment process and can instantly publish updates to my frontend.
 
-Contributions to this template are welcome. If you encounter issues or have suggestions, please open an issue on the [GitHub repository](https://github.com/prince272/rgtechmessenger).
-
-## Support 🙌
-
-If you find this template helpful, consider supporting the project by contributing, giving it a star ⭐️ on GitHub, or sharing it with others who might benefit from it.
-
-## License 📄
-
-This template is licensed under the [MIT License](https://github.com/prince272/rgtechmessenger/blob/master/LICENSE.txt).
+Both SmartASP and Vercel have been integral to the success of my RGTechMessenger project. Their hosting solutions have allowed me to focus on building and improving my application, knowing that my backend and frontend are in capable hands.
