@@ -4,13 +4,13 @@ import { FC, useCallback, useEffect, useState } from "react";
 import NextLink from "next/link";
 import { usePathname } from "next/navigation";
 import { AddIcon, DockPanelRightIcon } from "@/assets/icons";
-import queryString from "query-string";
-import { User, useApi, useUser } from "@/lib/api";
-import { useSignalREffect } from "@/lib/signalr";
 import { Button } from "@nextui-org/react";
+import queryString from "query-string";
 
-export interface AppNavigationProps {
-}
+import { useApi, User, useUser } from "@/lib/api";
+import { useSignalREffect } from "@/lib/signalr";
+
+export interface AppNavigationProps {}
 
 export const AppNavigation: FC<AppNavigationProps> = () => {
   const pathname = usePathname();
@@ -35,7 +35,7 @@ export const AppNavigation: FC<AppNavigationProps> = () => {
     "UserConnected",
     () => {
       loadOnlineUsers();
-      console.log("UserConnected")
+      console.log("UserConnected");
     },
     []
   );
@@ -44,7 +44,7 @@ export const AppNavigation: FC<AppNavigationProps> = () => {
     "UserDisconnected",
     () => {
       loadOnlineUsers();
-      console.log("UserDisconnected")
+      console.log("UserDisconnected");
     },
     []
   );
@@ -59,10 +59,7 @@ export const AppNavigation: FC<AppNavigationProps> = () => {
         </span>
 
         {close && (
-          <span
-            onClick={close}
-            className="ml-2.5 flex h-12 w-14 items-center justify-center rounded-lg border-[1px] border-divider hover:bg-content3"
-          >
+          <span onClick={close} className="ml-2.5 flex h-12 w-14 items-center justify-center rounded-lg border-[1px] border-divider hover:bg-content3">
             <DockPanelRightIcon className="h-5 w-5" />
           </span>
         )}
@@ -74,7 +71,7 @@ export const AppNavigation: FC<AppNavigationProps> = () => {
           <>
             {onlineUsers.data.map((user) => {
               return (
-                <div key={user.id} className="flex items-center my-3">
+                <div key={user.id} className="my-3 flex items-center">
                   <div className=" mr-2 flex h-10 w-10 items-center justify-center rounded bg-primary-500">
                     <p className=" text-2xl ">{user?.firstName.slice(0, 1)}</p>
                   </div>
@@ -86,22 +83,14 @@ export const AppNavigation: FC<AppNavigationProps> = () => {
             })}
           </>
         ) : (
-          <>
-           
-          </>
+          <></>
         )}
       </section>
       {/* user section */}
       <section className=" flex items-center border-t-[1px] border-divider py-6">
         {!currentUser && (
           <>
-            <Button
-              as={NextLink}
-              className="mb-4"
-              fullWidth
-              color="primary"
-              href={queryString.stringifyUrl({ url: pathname, query: { dialogId: "sign-in" } })}
-            >
+            <Button as={NextLink} className="mb-4" fullWidth color="primary" href={queryString.stringifyUrl({ url: pathname, query: { dialogId: "sign-in" } })}>
               Sign in
             </Button>
           </>

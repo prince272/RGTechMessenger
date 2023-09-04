@@ -22,9 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-background text-foreground">
         <CookiesProvider value={cookies.getAll().map((cookie) => ({ name: cookie.name, value: cookie.value }))}>
           <ApiProvider>
-            <AppProvider>
-              {children}
-            </AppProvider>
+            <AppProvider>{children}</AppProvider>
           </ApiProvider>
         </CookiesProvider>
       </body>
