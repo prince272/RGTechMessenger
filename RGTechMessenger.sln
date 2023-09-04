@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12542E7A-B90D-484F-90CC-D513C802AC63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RGTechMessenger.Core", "RGTechMessenger\src\RGTechMessenger.Core\RGTechMessenger.Core.csproj", "{4199EC1F-9EC5-4663-A7BE-F41941F1B807}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RGTechMessenger.WebApi", "RGTechMessenger\src\RGTechMessenger.WebApi\RGTechMessenger.WebApi.csproj", "{FFD19764-F9BE-45F6-884F-B33AE08D13D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RGTechMessenger.Infrastructure", "RGTechMessenger\src\RGTechMessenger.Infrastructure\RGTechMessenger.Infrastructure.csproj", "{A0E8D460-798A-432E-8927-985F152955EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RGTechMessenger.Core.Templates", "RGTechMessenger\src\RGTechMessenger.Core.Templates\RGTechMessenger.Core.Templates.csproj", "{1A906860-84D6-42AC-8DB8-D2BBD6A17FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4199EC1F-9EC5-4663-A7BE-F41941F1B807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4199EC1F-9EC5-4663-A7BE-F41941F1B807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4199EC1F-9EC5-4663-A7BE-F41941F1B807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4199EC1F-9EC5-4663-A7BE-F41941F1B807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD19764-F9BE-45F6-884F-B33AE08D13D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD19764-F9BE-45F6-884F-B33AE08D13D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD19764-F9BE-45F6-884F-B33AE08D13D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD19764-F9BE-45F6-884F-B33AE08D13D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E8D460-798A-432E-8927-985F152955EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E8D460-798A-432E-8927-985F152955EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E8D460-798A-432E-8927-985F152955EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E8D460-798A-432E-8927-985F152955EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A906860-84D6-42AC-8DB8-D2BBD6A17FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A906860-84D6-42AC-8DB8-D2BBD6A17FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A906860-84D6-42AC-8DB8-D2BBD6A17FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A906860-84D6-42AC-8DB8-D2BBD6A17FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4199EC1F-9EC5-4663-A7BE-F41941F1B807} = {12542E7A-B90D-484F-90CC-D513C802AC63}
+		{FFD19764-F9BE-45F6-884F-B33AE08D13D6} = {12542E7A-B90D-484F-90CC-D513C802AC63}
+		{A0E8D460-798A-432E-8927-985F152955EB} = {12542E7A-B90D-484F-90CC-D513C802AC63}
+		{1A906860-84D6-42AC-8DB8-D2BBD6A17FAB} = {12542E7A-B90D-484F-90CC-D513C802AC63}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {082E08C4-8A91-4E55-A295-7E7FE3B8976D}
+	EndGlobalSection
+EndGlobal
